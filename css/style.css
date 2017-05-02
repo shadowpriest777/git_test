@@ -243,18 +243,24 @@ div>h3 {
     padding-bottom: 10.5px;
     margin-top: 11px;
 }
-div>.min_img_slider>span>img{
-    padding: 10px;
-    height: 95px;
-}
-div>.min_img_slider>span>img: hover{
-    padding: 10px;
-    height: 95px;
-}
+
 .min_img_slider {
-   top:430px;
+   top:432px;
    width: 100%;
-   left: 30%;
+   left: 32%;
 } 
 
-
+.border {
+    width: 155px;
+    float: left;
+    padding: 5px;
+}
+.border.active {
+    width: 163px;
+    height: 95px;
+    float: left;
+    border: 3px solid #f65e08;
+}
+.border>img{
+    width: 93%;
+}
