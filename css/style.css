@@ -1,0 +1,260 @@
+.bg_header{
+    background-color: #323232;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    font-family: "Roboto",sans-serif;
+}
+.logo {
+    width: 177px;
+    height: 66px;
+    border-right: 1px solid #666;
+}
+.text_logo{
+    color: white;
+    margin-left: 18px;
+    margin-top: 13px;
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+#search {
+    width: 252px;
+    height: 34px;
+    background-color: #444;
+    color: #999;
+    font-size: 14px;
+    padding-left: 12px;
+    border: none;
+    float: left;
+    outline: none;
+}
+::-webkit-input-placeholder {color:#999;}
+::-moz-placeholder          {color:#999;}/* Firefox 19+ */
+:-moz-placeholder           {color:#999;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#999;}
+
+#search_button {
+    height: 34px;
+    width: 36px;
+    background-color: #444;
+    border: none;
+    color: #999;
+    position: inherit;
+}
+#serch_group {
+    margin-top: 4px;
+    width: 288px;
+    float: left;
+    margin-left: 68px;
+}
+#buy {
+    display: block;
+    height: 34px;
+    text-align: center;
+    width: 84px;
+    background-color: #f65e08;
+    padding-top: 7px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+#enter {
+    display: block;
+    height: 34px;
+    text-align: center;
+    width: 59px;
+    background-color: #2980b9;
+    padding-top: 7px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+.button_group {
+    float: right;
+}
+
+#enter:hover{
+    display: block;
+    height: 34px;
+    text-align: center;
+    width: 59px;
+    background-color: #298cff;
+    padding-top: 7px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+#buy:hover {
+    display: block;
+    height: 34px;
+    text-align: center;
+    width: 84px;
+    background-color: #ff7d08;
+    padding-top: 7px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    color: white;
+    float: right;
+}
+
+li{
+    float: left;
+}
+
+.bg_nav {
+    background-color: #323232;
+    font-family: "Roboto",sans-serif;
+    border-top: 1px solid #555;
+    height: 51px;
+}
+
+span.glyphicon-menu-down {
+    font-size: 0.5em;
+}
+
+li>a {
+    color: white;
+    display: block;
+    padding: 15px;
+}
+li>a:hover {
+    color: white;
+    background-color: #f65e08;
+}
+.menu>li>a {
+    text-decoration: none;
+}
+.pic_size {
+    width: 760px;
+    float: left;
+}
+
+.slider_text {
+    width: 380px;
+    height: 427.5px;
+    float: left;
+    padding: 0px 15px;
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.color_link {
+    color: #f65e08;
+    text-decoration: none;
+}
+
+.gly_style {
+    padding-left: 5px;
+}
+.react_bg_color {
+    background-color: #2B0101;
+}
+
+.angular_bg_color {
+    background-color: #e3052a;
+}
+
+.xamarin_bg_color {
+    background-color: #020228;
+}
+.php_bg_color {
+    background-color: #FF02A1;
+}
+
+.carousel_position {
+    margin-top: 30px;
+}
+
+#arrow_style_previous{
+    background-image: url(/img/arrow.png);
+    top: 38%;
+    left: -34px;
+    opacity: 0.7;
+}
+.arrows_style {
+    height: 100px;
+    width: 34px;
+}
+.control_style:hover {   
+    height: 100px;
+    width: 34px;
+}
+#arrow_style_next{
+    background-image: url(/img/arrow_next.png);
+    top: 38%;
+    right: -34px;
+    opacity: 0.7;
+}
+.arrows {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    opacity: 0;
+}
+.arrows:hover {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    opacity: 0.7;
+}
+p {
+    display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 21px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.qa_bg_color {
+    background-color: #003336;
+}
+
+.ts_bg_color {
+    background-color: #053c5e;
+}
+
+.sql_bg_color {
+    background-color: #363636;
+}
+div>h3 {
+    font-weight: 100;
+    padding-bottom: 10.5px;
+    margin-top: 11px;
+}
+div>.min_img_slider>span>img{
+    padding: 10px;
+    height: 95px;
+}
+div>.min_img_slider>span>img: hover{
+    padding: 10px;
+    height: 95px;
+}
+.min_img_slider {
+   top:430px;
+   width: 100%;
+   left: 30%;
+} 
+
+
